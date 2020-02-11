@@ -1,0 +1,286 @@
+
+
+html, body {
+    margin: 0;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
+    background: #FFFAFA;
+    text-align: center;
+    letter-spacing: 20px;
+    overflow-x: hidden
+}
+
+
+p {
+    margin: 0;
+    padding: 10px;
+    z-index: 1;
+    position: relative;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    z-index: 1;
+    position: relative;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
+    letter-spacing: 20px;
+    text-align: center;
+   
+
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration:underline;
+  letter-spacing:10px;
+  font-style: italic;
+  text-align: center;
+    font-size: 25px
+    
+}
+
+.hover-content {
+    display: none;
+}
+
+.hover-show:hover + .hover-content {
+    display: block;
+}
+
+
+h2 {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 38px;
+	font-style: normal;
+	font-variant: normal;
+    line-height: 23px;
+    letter-spacing: 20px;
+	
+  
+}
+
+
+h3 {
+	 
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+    line-height: normal;
+	letter-spacing: normal;
+    
+	
+}
+
+.marquee-container {
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 10px;
+}
+
+.marquee, .marquee-reverse {
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 10s infinite linear;
+}
+.marquee-reverse {
+    animation-direction: reverse;
+}
+.marquee--1s {
+    animation-duration: 1s;
+}
+.marquee--2s {
+    animation-duration: 2s;
+}
+.marquee--3s {
+    animation-duration: 3s;
+}
+.marquee--4s {
+    animation-duration: 4s;
+}
+.marquee--5s {
+    animation-duration: 5s;
+}
+.marquee--6s {
+    animation-duration: 6s;
+}
+.marquee--7s {
+    animation-duration: 7s;
+}
+.marquee--8s {
+    animation-duration: 8s;
+}
+.marquee--9s {
+    animation-duration: 9s;
+}
+.marquee--10s {
+    animation-duration: 10s;
+}
+
+.marquee--11s {
+    animation-duration: 11s;
+}
+
+.marquee--12s {
+    animation-duration: 12s;
+}
+
+.marquee--13s {
+    animation-duration: 13s;
+}
+
+.marquee--14s {
+    animation-duration: 14s;
+}
+
+.marquee--15s {
+    animation-duration: 15s;
+}
+
+.marquee--16s {
+    animation-duration: 16s;
+}
+
+.marquee--17s {
+    animation-duration: 17s;
+}
+
+.marquee--18s {
+    animation-duration: 18s;
+}
+
+.marquee--19s {
+    animation-duration: 19s;
+}
+
+.marquee--20s {
+    animation-duration: 20s;
+}
+
+.marquee--21s {
+    animation-duration: 21s;
+}
+
+.marquee--22s {
+    animation-duration: 22s;
+}
+
+.marquee--23s {
+    animation-duration: 23s;
+}
+
+.marquee--24s {
+    animation-duration: 24s;
+}
+
+.marquee--25s {
+    animation-duration: 25s;
+}
+
+.marquee--26s {
+    animation-duration: 26s;
+}
+
+.marquee--27s {
+    animation-duration: 27s;
+}
+
+.marquee--28s {
+    animation-duration: 28s;
+}
+
+.marquee--29s {
+    animation-duration: 29s;
+}
+
+.marquee--30s {
+    animation-duration: 30s;
+}
+
+.marquee--31s {
+    animation-duration: 31s;
+}
+
+.marquee--32s {
+    animation-duration: 32s;
+}
+
+.marquee--33s {
+    animation-duration: 33s;
+}
+
+.marquee--34s {
+    animation-duration: 34s;
+}
+
+.marquee--35s {
+    animation-duration: 35s;
+}
+
+.marquee--36s {
+    animation-duration: 36s;
+}
+@keyframes marquee {
+    from {
+        left: 0%;
+        transform: translateX(-100%);
+    }
+    to {
+        left: 100%;
+        transform: translateX(0%);
+    }
+}
+
+.spacer-50px {
+    height: 50px;
+}
+.spacer-100px {
+    height: 100px;
+}
+.spacer-200px {
+    height: 200px;
+}
+.spacer-300px {
+    height: 300px;
+}
+.spacer-400px {
+    height: 400px;
+}
+.spacer-500px {
+    height: 500px;
+}
+.spacer-600px {
+    height: 600px;
+}
+.spacer-700px {
+    height: 700px;
+}
+
+.spacer-800px {
+    height: 800px;
+}
+
+.spacer-900px {
+    height: 900px;
+}
+
